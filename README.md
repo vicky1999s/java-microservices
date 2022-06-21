@@ -44,9 +44,9 @@
 ## To run zipkin server using docker
 
 
-> **cmd:**  docker run -p 9411:9411 --name zipkin openzipkin/zipkin
+> docker run -p 9411:9411 --name zipkin openzipkin/zipkin
 
 
 ## To build docker images
 cd in to the maven directory and run the following command.
-> **cmd**: mvn spring-boot:build-image -DskipTests
+> mvn spring-boot:build-image -DskipTests
