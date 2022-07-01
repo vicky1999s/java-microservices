@@ -11,7 +11,7 @@
 |currency exchange service|localhost: 8000, 8001....|
 |  |  |
 
-**Flow-diagram**
+**Diagram**
 
 <img src="docs/architecture.PNG" width="600" height="400">
 
