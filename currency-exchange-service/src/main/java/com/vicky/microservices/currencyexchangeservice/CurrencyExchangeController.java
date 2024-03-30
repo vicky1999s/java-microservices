@@ -41,6 +41,7 @@ public class CurrencyExchangeController {
 		
 	}
 	
+	@SuppressWarnings("unused")
 	private CurrencyExchange currencyExchangeFallback(Exception e) {
 		logger.error("Currency exchange server error");
 		return null;
